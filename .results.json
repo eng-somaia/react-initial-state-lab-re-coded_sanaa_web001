@@ -1,0 +1,113 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 5,
+    "passes": 3,
+    "pending": 0,
+    "failures": 2,
+    "start": "2020-09-21T10:22:04.271Z",
+    "end": "2020-09-21T10:22:04.297Z",
+    "duration": 26
+  },
+  "tests": [
+    {
+      "title": "should set the `currentSlideIndex` to 0 on its state",
+      "fullTitle": "<ImageSlider /> should set the `currentSlideIndex` to 0 on its state",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "render the correct text",
+      "fullTitle": "<ImageSlider /> render the correct text",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should set the `secondsLeft` to the value of the `initialCount` prop",
+      "fullTitle": "<Bomb /> should set the `secondsLeft` to the value of the `initialCount` prop",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "render the correct text when the timer is not 0",
+      "fullTitle": "<Bomb /> render the correct text when the timer is not 0",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected '' to equal '120 seconds left before I go boom!'",
+        "showDiff": true,
+        "actual": "",
+        "expected": "120 seconds left before I go boom!",
+        "stack": "AssertionError: expected '' to equal '120 seconds left before I go boom!'\n    at Context.<anonymous> (test/index-test.js:36:31)"
+      }
+    },
+    {
+      "title": "render the correct text when the timer is 0",
+      "fullTitle": "<Bomb /> render the correct text when the timer is 0",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected '' to equal 'Boom!'",
+        "showDiff": true,
+        "actual": "",
+        "expected": "Boom!",
+        "stack": "AssertionError: expected '' to equal 'Boom!'\n    at Context.<anonymous> (test/index-test.js:41:31)"
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "render the correct text when the timer is not 0",
+      "fullTitle": "<Bomb /> render the correct text when the timer is not 0",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected '' to equal '120 seconds left before I go boom!'",
+        "showDiff": true,
+        "actual": "",
+        "expected": "120 seconds left before I go boom!",
+        "stack": "AssertionError: expected '' to equal '120 seconds left before I go boom!'\n    at Context.<anonymous> (test/index-test.js:36:31)"
+      }
+    },
+    {
+      "title": "render the correct text when the timer is 0",
+      "fullTitle": "<Bomb /> render the correct text when the timer is 0",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected '' to equal 'Boom!'",
+        "showDiff": true,
+        "actual": "",
+        "expected": "Boom!",
+        "stack": "AssertionError: expected '' to equal 'Boom!'\n    at Context.<anonymous> (test/index-test.js:41:31)"
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "should set the `currentSlideIndex` to 0 on its state",
+      "fullTitle": "<ImageSlider /> should set the `currentSlideIndex` to 0 on its state",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "render the correct text",
+      "fullTitle": "<ImageSlider /> render the correct text",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should set the `secondsLeft` to the value of the `initialCount` prop",
+      "fullTitle": "<Bomb /> should set the `secondsLeft` to the value of the `initialCount` prop",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
