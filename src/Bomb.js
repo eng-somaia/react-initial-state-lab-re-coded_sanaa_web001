@@ -8,7 +8,7 @@ export default class Bomb extends Component {
       secondsLeft: this.props.initialCount
     }
   }
-  countDown = () =>{
+  countDown = (this.state.secondsLeft) =>{
     let x = setInterval(()=>{
       newSecondsLeft = this.state.secondsLeft - 1
       this.setState({
