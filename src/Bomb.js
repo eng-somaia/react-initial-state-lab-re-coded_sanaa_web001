@@ -8,7 +8,7 @@ export default class Bomb extends Component {
       secondsLeft: this.props.initialCount
     }
   }
-  
+
   render() {
     const secondsLeft = initialCount;
     return (
