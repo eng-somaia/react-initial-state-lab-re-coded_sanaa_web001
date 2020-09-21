@@ -18,10 +18,11 @@ export default class Bomb extends Component {
     },1000)
   }
   render() {
-    const secondsLeft = initialCount
+    const secondsLeft = initialCount;
     return (
       <div>
       second'{this.state.secondsLeft} seconds left before I go boom!'
+      this.countDown();
       </div>
     )
   }
