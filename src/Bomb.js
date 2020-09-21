@@ -18,7 +18,7 @@ export default class Bomb extends Component {
          clearInterval(x);
          'Boom!'}
     },1000)
-  } 
+  }
   render() {
     const secondsLeft = initialCount
     return (
