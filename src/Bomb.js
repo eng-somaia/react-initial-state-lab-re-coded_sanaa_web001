@@ -14,7 +14,7 @@ export default class Bomb extends Component {
       this.setState({
         secondsLeft: newSecondsLeft
       })
-      
+
     },1000)
   }
   render() {
