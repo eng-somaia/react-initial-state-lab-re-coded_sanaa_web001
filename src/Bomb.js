@@ -14,9 +14,7 @@ export default class Bomb extends Component {
       this.setState({
         secondsLeft: newSecondsLeft
       })
-      if (newSecondsLeft === 0) {
-         clearInterval(x);
-         'Boom!'}
+      
     },1000)
   }
   render() {
